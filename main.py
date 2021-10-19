@@ -12,9 +12,7 @@ import random
 import configparser
 from discord.ext import commands, tasks
 from colorama import Fore, init
-import keep_alive
 
-keep_alive.keep_alive()
 init()
 clear = lambda: os.system('cls')
 cfg = configparser.ConfigParser()
